@@ -8,6 +8,8 @@ export const PageLayout = ({ children }) => (
     <h1>Gamestash</h1>
     <IndexLink to='/' activeClassName='page-layout__nav-item--active'>Home</IndexLink>
     {' · '}
+    <Link to='/dashboard' activeClassName='page-layout__nav-item--active'>Dashboard</Link>
+    {' · '}
     <Link to='/counter' activeClassName='page-layout__nav-item--active'>Counter</Link>
     <div className='page-layout__viewport'>
       {children}
