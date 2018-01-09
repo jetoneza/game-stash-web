@@ -8,8 +8,8 @@ Web application for gamestash.
 ## Installation
 
 ```bash
-$ git clone https://github.com/jetoneza/game-stash-web.git <my-project-name>
-$ cd <my-project-name>
+$ git clone https://github.com/jetoneza/game-stash-web.git
+$ cd game-stash-web
 ```
 
 When that's done, install the project dependencies. It is recommended that you use [Yarn](https://yarnpkg.com/) for deterministic dependency management, but `npm install` will suffice.
